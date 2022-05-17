@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="This is a song suggestion picker based on mood choices">
+        <meta name="keywords" content="songs, mood, music">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Mood Music</title>
+
+        <!--Exernal CSS Link-->
+        <link rel="stylesheet" href="css/normalise.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="../MusicPicker/css/styleSong.css">
+
+        <!--Font Links-->
+        <script src="https://kit.fontawesome.com/ae48628363.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Mood Music Picker</h1>
+            <i class="fa-solid fa-headphones fa-2xl"></i>        
+        </header>
+
+        <section class="main-wrapper clearfix clear">
+            <section class="right">
+                <section class="mood button">
+                    <h2 id="happy">Happy</h2>
+                 </section>
+                <section class="mood button">
+                    <h2 id="sad">Sad</h2>
+                </section>
+                <section class="mood button">
+                    <h2 id="sleepy">Sleepy</h2>
+                </section>
+                <section class="mood button">
+                    <h2 id="romance">Romance</h2>
+                </section>
+                <section class="mood button">
+                    <h2 id="saucey">Saucey</h2>
+                </section>
+            </section>
+
+            <!--Text Result-->
+            <section class="left">
+                <section id="placeToSee"></section>
+                <h3 class="resultText"></h3>
+            </section>
+        </section>
+
+        <script type="text/javascript" src="../MusicPicker/js/mainPicker.js"></script>
+    </body>
+</html>
